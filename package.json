@@ -1,0 +1,22 @@
+{
+  "name": "funkie-phantom",
+  "version": "0.0.0",
+  "description": "Phantom for funkie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennym/funkie-phantom.git"
+  },
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennym/funkie-phantom/issues"
+  },
+  "homepage": "https://github.com/lennym/funkie-phantom#readme",
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
