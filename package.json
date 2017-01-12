@@ -1,6 +1,6 @@
 {
   "name": "funkie-phantom",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Phantom for funkie",
   "main": "index.js",
   "scripts": {
