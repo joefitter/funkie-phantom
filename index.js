@@ -6,7 +6,7 @@ module.exports = () => {
   let server;
   return {
     start: () => {
-      return phantom.run('--webdriver=4444', '--web-security=no').then((s) => {
+      return phantom.run('--ignore-ssl-errors=true', '--web-security=false', '--ssl-protocol=tlsv1', '--local-to-remote-url-access=true', '--webdriver=4444', '--debug=true').then((s) => {
         server = s;
       });
     },
