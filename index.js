@@ -6,7 +6,7 @@ module.exports = () => {
   let server;
   return {
     start: () => {
-      return phantom.run('--webdriver=4444 --web-security=no').then((s) => {
+      return phantom.run('--webdriver=4444', '--web-security=no').then((s) => {
         server = s;
       });
     },
